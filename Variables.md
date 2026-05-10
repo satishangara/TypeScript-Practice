@@ -122,6 +122,55 @@ Let - not initializing hoisting
 Const - not initializing hoisting
  
 
+//Example1: Functional scope (Var variable)
+
+/* function varscope()
+{
+    if(true)
+    {
+        var message="hello satish-var";
+       // console.log(message);
+    }
+    console.log(message);
+}
+varscope(); */
+
+//Example2: Block Scope (Let & Const variables)
+/*function blockScope()
+{
+    if(true)
+    {
+        let text="let test message";
+        const num="test const";
+
+       // console.log(text);
+        // console.log(num);
+    }
+    console.log(text);
+    console.log(num);
+}
+blockScope()*/
+
+//Example 3: Scope differences
+
+/* function scopedifferene()
+{
+    if(true)
+    {
+        var num1=10;
+        let num2=20;
+        const num3=30;
+
+        //console.log(num1);
+        //console.log(num2);
+       //console.log(num3);
+    }
+    console.log(num1);
+    console.log(num2);
+    console.log(num3);
+}
+scopedifferene() */
+
 
 
 
