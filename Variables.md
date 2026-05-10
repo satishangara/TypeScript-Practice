@@ -121,7 +121,7 @@ Let - not initializing hoisting
 
 Const - not initializing hoisting
  
-
+-----------------------------------------------------------------------------------------------------------
 //Example1: Functional scope (Var variable)
 
 /* function varscope()
