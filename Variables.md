@@ -124,7 +124,7 @@ Const - not initializing hoisting
 -----------------------------------------------------------------------------------------------------------
 //Example1: Functional scope (Var variable)
 
-/* function varscope()
+function varscope()
 {
     if(true)
     {
@@ -133,10 +133,10 @@ Const - not initializing hoisting
     }
     console.log(message);
 }
-varscope(); */
+varscope(); 
 
 //Example2: Block Scope (Let & Const variables)
-/*function blockScope()
+function blockScope()
 {
     if(true)
     {
@@ -149,11 +149,11 @@ varscope(); */
     console.log(text);
     console.log(num);
 }
-blockScope()*/
+blockScope()
 
 //Example 3: Scope differences
 
-/* function scopedifferene()
+function scopedifferene()
 {
     if(true)
     {
@@ -169,7 +169,7 @@ blockScope()*/
     console.log(num2);
     console.log(num3);
 }
-scopedifferene() */
+scopedifferene() 
 
 
 
